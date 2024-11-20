@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container mx-auto">
     <div class="navbar bg-base-100">
       <div class="navbar-start">
         <div class="dropdown">
@@ -23,20 +23,22 @@
             tabindex="0"
             class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
-            <li><a>Item 1</a></li>
-            <li><a>Item 3</a></li>
+            <li><a>HOME</a></li>
+            <li><a>ABOUT</a></li>
+            <li><a>PROJECTS</a></li>
           </ul>
         </div>
-        <a class="btn btn-ghost text-xl ml-5">MF</a>
+        <a class="btn btn-ghost text-xl pl-10">MF</a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
-          <li><a>Item 1</a></li>
-          <li><a>Item 3</a></li>
+          <li><a>HOME</a></li>
+          <li><a>ABOUT</a></li>
+          <li><a>PROJECTS</a></li>
         </ul>
       </div>
-      <div class="navbar-end">
-        <a class="btn">Button</a>
+      <div class="navbar-end pr-10">
+        <a class="btn btn-outline btn-primary">Contact me</a>
       </div>
     </div>
   </div>
