@@ -1,8 +1,11 @@
 <template>
-  <div class="container m-10">
+  <div class="container mt-10">
     <div class="hero bg-transparent min-h-screen">
       <div class="hero-content flex-col lg:flex-row-reverse">
-        <img src="../../assets/img/profile1.jpg" class="max-w-sm rounded-lg shadow-2xl shadow-white" />
+        <img
+          src="../../assets/img/profile1.jpg"
+          class="max-w-sm rounded-lg shadow-2xl shadow-white"
+        />
         <div class="mr-10">
           <h1 class="text-5xl font-bold">Muhamad Fachri</h1>
           <p class="py-6">
