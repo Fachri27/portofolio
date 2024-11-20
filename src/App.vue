@@ -7,6 +7,8 @@ import HeaderContent from './components/Header/HeaderContent.vue'
   <header>
     <div class="wrapper">
       <HeaderNavbar />
+    </div>
+    <div class="wrapper">
       <HeaderContent />
     </div>
   </header>
